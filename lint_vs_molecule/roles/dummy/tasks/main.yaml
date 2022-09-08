@@ -1,0 +1,4 @@
+---
+- name: Print dummy message
+  ansible.builtin.debug:
+    msg: "This is a dummy role"

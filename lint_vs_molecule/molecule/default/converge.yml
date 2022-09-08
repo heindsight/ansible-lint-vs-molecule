@@ -1,0 +1,8 @@
+---
+- name: Converge
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: "Include lint_vs_molecule"
+      ansible.builtin.include_role:
+        name: "example.lint_vs_molecule.dummy"

@@ -1,0 +1,9 @@
+---
+namespace: example
+name: lint_vs_molecule
+version: 1.0.0
+readme: README.md
+authors:
+  - Heinrich Kruger <heindsigt@kruger.dev>
+description: Reproduction of ansible-lint / molecule conflict
+repository: https://github.com/heindsight/ansible-lint-vs-molecule
